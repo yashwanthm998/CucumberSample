@@ -60,6 +60,10 @@ public class apiTest {
     }
 
 
+    @Given("Test")
+    public void test() {
+        System.out.println("test");
+    }
 }
 
 
