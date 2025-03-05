@@ -16,6 +16,9 @@ Feature: User API Testing
       Given the API base URL is "https://fakerestapi.azurewebsites.net/api/v1"
       When I send a DELETE request to "/Users/636"
       Then the response status code should be 200
+      And print success messsage
 
-      Scenario : Test
+
+  Scenario : Test
         Given Test
+
