@@ -59,13 +59,13 @@ public class apiTest {
         Assert.assertEquals(response.getStatusCode(),200);
     }
 
-    @And("print success messsage")
-    public void printSuccessMesssage() {
+    @And("print success message")
+    public void printSuccessMessage() {
     }
 
-
-
-
+    @And("print success code")
+    public void printSuccessCode() {
+    }
 }
 
 
