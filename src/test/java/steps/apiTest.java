@@ -56,12 +56,17 @@ public class apiTest {
 
     @Then("the response status code should be 200")
     public void validateStatusCode() {
+        Assert.assertEquals(response.getStatusCode(),200);
+    }
 
+    @Then("the response status code should be 200")
+    public void validateStatusCode() {
         Assert.assertEquals(response.getStatusCode(),200);
     }
 
 
-    }
+
+}
 
 
 
