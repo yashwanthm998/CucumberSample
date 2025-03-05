@@ -60,6 +60,10 @@ public class apiTest {
     }
 
 
+    @When("I send a GET request to {string}")
+    public void iSendAGETRequestTo(String arg0) {
+        response = RestAssured.requestSpecification.get(arg0);
+    }
 }
 
 
