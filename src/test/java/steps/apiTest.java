@@ -66,6 +66,13 @@ public class apiTest {
     @And("print success code")
     public void printSuccessCode() {
     }
+
+
+
+    @Given("Test")
+    public void test() {
+        System.out.println("test");
+    }
 }
 
 

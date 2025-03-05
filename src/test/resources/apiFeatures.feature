@@ -19,3 +19,7 @@ Feature: User API Testing
       And print success message
       And print success code
 
+
+  Scenario : Test
+        Given Test
+
