@@ -59,10 +59,19 @@ public class apiTest {
         Assert.assertEquals(response.getStatusCode(),200);
     }
 
+    @And("print success message")
+    public void printSuccessMessage() {
+    }
 
-    @When("I send a GET request to {string}")
-    public void iSendAGETRequestTo(String arg0) {
-        response = RestAssured.requestSpecification.get(arg0);
+    @And("print success code")
+    public void printSuccessCode() {
+    }
+
+
+
+    @Given("Test")
+    public void test() {
+        System.out.println("test");
     }
 }
 

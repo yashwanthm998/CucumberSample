@@ -21,3 +21,10 @@ Feature: User API Testing
     Given the API base URL is "https://fakerestapi.azurewebsites.net/api/v1"
     When I send a GET request to "/Users"
     Then the response status code should be 200
+      And print success message
+      And print success code
+
+
+  Scenario : Test
+        Given Test
+
